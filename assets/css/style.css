@@ -103,13 +103,13 @@ footer {
 /* ==========Modal Styling========= */
 
 .content {
-  position: absolute /*relative and fixed elements also works*/;
+  position: fixed /*relative and fixed elements also works*/;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 100;
-  min-height: 800%;
+  min-height: 100%;
   background: rgba(251, 237, 163, 0.5);
   backdrop-filter: blur(15px);
 }
