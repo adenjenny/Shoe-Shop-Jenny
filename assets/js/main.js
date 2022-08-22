@@ -160,14 +160,11 @@ addToCart.forEach((item) => {
 // // // // // // MODAL
 let accept = document.querySelector("#accept");
 let reject = document.querySelector("#reject");
-let modal = document.querySelector(".modal");
 let content = document.querySelector(".content");
 
 accept.addEventListener("click", function () {
-  modal.remove();
   content.remove();
 });
 reject.addEventListener("click", function () {
-  modal.remove();
   content.remove();
 });
